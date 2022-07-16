@@ -1,0 +1,82 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #c8ffff;
+    color: black;
+}
+
+body.correct{
+    background-color: #0e850e98;
+}
+
+body.wrong{
+    background-color: #de000080;
+}
+
+.container{
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+.btn{
+    padding: 12px;
+    margin: 8px;
+    background-color: #b4b4b4;
+}
+
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+}
+
+.next-btn{
+    color: #313131;
+    border: solid black 1.2px;
+    font-size: 1.5rem;
+    padding: 15px;
+    margin-left: 12px;
+}
+
+
+.start-btn{
+    font-size: 1.5rem;
+    padding: 15px;
+    margin-right: 12px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.next-btn:hover{
+    border: solid black 1.2px ;
+    color: white;
+    background-color: black;
+}
+
+.btn.correct{
+    background-color: green;
+}
+
+.btn.wrong{
+    background-color: #cb0000;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
